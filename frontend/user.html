@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literature Management Tool</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div id="app">
+        <div id="left-container">
+            <h1>Literature Management Tool</h1>
+            <div id="upload-container">
+                <input type="file" id="fileUpload" multiple>
+                <button onclick="uploadFiles()">Upload</button>
+            </div>
+            <div id="history">
+                <h2>Uploaded Documents</h2>
+                <ul id="documentList"></ul>
+            </div>
+        </div>
+        <div id="content-container">
+            <div id="chat-container">
+                <h2>Chat with Gemini</h2>
+                <div id="chatBox"></div>
+                <input type="text" id="chatInput" placeholder="Ask something...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="user.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* 设置背景颜色 */
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 让内容在垂直方向上居中显示 */
+}
+
+#login-container {
+    background-color: #fff; /* 设置登录框背景颜色 */
+    padding: 40px;
+    border-radius: 8px; /* 圆角边框 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+#login-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#login input[type="text"],
+#login input[type="password"],
+#login button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login button {
+    background-color: #007bff; /* 设置按钮背景颜色 */
+    color: #fff; /* 设置按钮文本颜色 */
+    cursor: pointer;
+}
+
+#login button:hover {
+    background-color: #0056b3; /* 设置按钮鼠标悬停时的背景颜色 */
+}
